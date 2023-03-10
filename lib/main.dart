@@ -1,4 +1,5 @@
 import 'package:drop_down_flutter/pages/drop_down_home.dart';
+import 'package:drop_down_flutter/pages/mysql/mysql_display.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,7 +13,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: DropDownHome(),
+      // home: DropDownHome(),
+      home: MysqlDisplay(),
     );
   }
 }
